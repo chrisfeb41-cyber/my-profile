@@ -1,48 +1,63 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #EAEAEA;
-  color: #333;
+* {
   margin: 0;
-  line-height: 1.6;
-  text-align: center;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fefaf6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
 }
 
 header {
-  background: #007acc;
-  color: white;
-  padding: 20px;
   text-align: center;
+  margin-bottom: 30px;
+  background: #ffe9d6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1)
 }
 
-h1 {
-  margin: 0;
+header h1 {
+  font-size: 2.5rem;
+  color: #e36414;
 }
 
-h2 {
-  color: #007;
-}
-p {
-  font-size: 18px;
+header p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
 section {
+  margin-bottom: 30px;
   padding: 20px;
-  margin: 10px;
-  background: #F4F9FF;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  color: #0A0F29;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #e36414;
+  border-bottom: 2px solid #ffd8b1;
+  display:inline-block;
+  padding-bottom: 5px;
 }
 
 ul {
-  padding-left: 6px;
-  list-style-position: inside;
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #444;
 }
 
 a {
-  color: #007acc;
+  color: #e36414;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -51,10 +66,11 @@ a:hover {
 
 footer {
   text-align: center;
-  padding: 0px;
-  background: #333;
-  color: white;
-  position: fixed;
+  margin-top: 40px;
+  padding: 15px;
+  background: #ffe9d6;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #444;
   bottom: 0;
-  width: 100%;
 }
